@@ -17,7 +17,7 @@ public class Formando {
    String nome;
    String apelido;
    String nii;
-   Date dataNascimento;
+   Date data_nascimento;
    
    public static void main (String[]args)
    throws ParseException{
@@ -27,7 +27,7 @@ public class Formando {
        f1.nii="987654321";
        SimpleDateFormat sdf=
                new SimpleDateFormat("yyyy-MM-dd");
-       f1.dataNascimento= sdf.parse("1978-09-01");
+       f1.data_nascimento= sdf.parse("1978-09-01");
        
        
    }
