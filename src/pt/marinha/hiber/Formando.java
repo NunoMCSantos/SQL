@@ -15,7 +15,7 @@ import java.util.Date;
  */
 public class Formando {
    String nome;
-   String apelido;
+   String apelidos;
    String nii;
    Date dataNascimento;
    
@@ -23,7 +23,7 @@ public class Formando {
    throws ParseException{
        Formando f1= new Formando();
        f1.nome="Cesar";
-       f1.apelido="Santos";
+       f1.apelidos="Santos";
        f1.nii="987654321";
        SimpleDateFormat sdf=
                new SimpleDateFormat("yyyy-MM-dd");
