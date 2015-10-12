@@ -22,7 +22,7 @@ public class Formando {
    public static void main (String[]args)
    throws ParseException{
        Formando f1= new Formando();
-       f1.nome="Nuno";
+       f1.nome="Cesar";
        f1.apelido="Santos";
        f1.nii="987654321";
        SimpleDateFormat sdf=
